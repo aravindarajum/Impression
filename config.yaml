@@ -1,0 +1,23 @@
+
+
+urls:
+  org_name: 'Impressions'
+  base_url: https://nimble-wisp-5a5d19.netlify.app/
+  login_page: /login
+  dashboard_page: /dashboard
+
+test_data:
+  signup_test_data_file: ./TestData/SignUp_Data.xlsx
+  signup_positive_test_data_sheet_name: 'SignUp_Positive_TestData'
+  signup_negative_test_data_sheet_name: 'SignUp_Negative_TestData'
+  signup_negative_pwd_confpwd_not_same_sheet_name: 'SignUp_Pwd_ConPwd_Neg_TestData'
+
+  volunteer_registration_file: ./TestData/Volunteer_Registration.xlsx
+  volunteer_registration_positive_sheet_name: 'Volunteer_Registration_Positive'
+  volunteer_registration_negative_sheet_name: 'Volunteer_Registration_Negative'
+
+  donation_registration_file: ./TestData/Donation_Registration.xlsx
+  donation_registration_positive_sheet_name: 'Donation_Registration_Positive'
+
+  signin_test_data_file: ./TestData/SignIn_Data.xlsx
+  signin_test_data_sheet_name: 'SignIn_Data'
