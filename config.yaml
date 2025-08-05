@@ -19,5 +19,8 @@ test_data:
   donation_registration_file: ./TestData/Donation_Registration.xlsx
   donation_registration_positive_sheet_name: 'Donation_Registration_Positive'
 
+  excel_donation_womenempowerment_positive_sheet_name : ./TestData/Donation_Women_Empowerment.xlsx
+  donation_registration_positive_sheet_name: 'Donation_WomenEmpower_Positive'
+
   signin_test_data_file: ./TestData/SignIn_Data.xlsx
   signin_test_data_sheet_name: 'SignIn_Data'
