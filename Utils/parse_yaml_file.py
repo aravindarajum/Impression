@@ -21,8 +21,5 @@ excel_volunteer_registration_negative_sheet_name = config['test_data']['voluntee
 excel_donation_registration_file = config['test_data']['donation_registration_file']
 excel_donation_registration_positive_sheet_name = config['test_data']['donation_registration_positive_sheet_name']
 
-excel_donation_womenempowerment_file = config['test_data']['donation_womenempowerment_positive_file']
-excel_donation_womenempowerment_positive_sheet_name = config['test_data']['donation_womenempowerment_positive_sheet_name']
-
 
 org_name = config['urls']['org_name']
