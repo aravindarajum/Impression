@@ -1,0 +1,47 @@
+# --------------------
+# Python cache & compiled files
+# --------------------
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# --------------------
+# Virtual environment folders
+# --------------------
+env/
+venv/
+.venv/
+
+# --------------------
+# Logs
+# --------------------
+Logs/
+*.log
+
+# --------------------
+# Reports
+# --------------------
+Reports/
+report.html
+
+# --------------------
+# Screenshots
+# --------------------
+Screenshots/
+
+# --------------------
+# Test & build artifacts
+# --------------------
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# --------------------
+# System files
+# --------------------
+.DS_Store
+Thumbs.db
