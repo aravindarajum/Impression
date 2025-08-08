@@ -22,4 +22,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run automation tests
-        run: pytest tests/
+        run: pytest --browser chrome --url https://nimble-wisp-5a5d19.netlify.app/ --headless
