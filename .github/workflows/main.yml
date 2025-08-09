@@ -1,0 +1,15 @@
+name: Run Automation Tests
+on:
+  repository_dispatch:
+    types: [run-automation-tests, manual-test-trigger]
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get trigger info
+        run: |
+          echo "Source repo: ${{ github.event.client_payload.source_repo }}"
+          echo "Environment: ${{ github.event.client_payload.environment }}"
+          echo "Test suite: ${{ github.event.client_payload.test_suite }}"
+      # Add your test execution steps here
