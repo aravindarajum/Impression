@@ -12,4 +12,5 @@ jobs:
           echo "Source repo: ${{ github.event.client_payload.source_repo }}"
           echo "Environment: ${{ github.event.client_payload.environment }}"
           echo "Test suite: ${{ github.event.client_payload.test_suite }}"
+          pytest --browser chrome --url https://nimble-wisp-5a5d19.netlify.app/ --headless
       # Add your test execution steps here
