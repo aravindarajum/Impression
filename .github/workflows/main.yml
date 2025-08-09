@@ -1,4 +1,5 @@
 name: Run Automation Tests
+
 on:
   repository_dispatch:
     types: [run-automation-tests, manual-test-trigger]
@@ -7,10 +8,27 @@ jobs:
   run-tests:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout test repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+
       - name: Get trigger info
         run: |
           echo "Source repo: ${{ github.event.client_payload.source_repo }}"
           echo "Environment: ${{ github.event.client_payload.environment }}"
           echo "Test suite: ${{ github.event.client_payload.test_suite }}"
+
+      - name: Run tests
+        run: |
           pytest --browser chrome --url https://nimble-wisp-5a5d19.netlify.app/ --headless
-      # Add your test execution steps here
