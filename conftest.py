@@ -19,17 +19,28 @@ capabilities = DesiredCapabilities.CHROME.copy()
 capabilities['acceptInsecureCerts'] = True
 
 @pytest.fixture(scope='class')
-def setup(request, browser, get_url):
+def setup(request, browser, get_url, headless):
     if browser == 'chrome':
         options = webdriver.ChromeOptions()
         options.add_argument('--ignore-certificate-errors')
+        if headless:
+            options.add_argument('--headless')
+            options.add_argument('--no-sandbox')
+            options.add_argument('--disable-dev-shm-usage')
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
     elif browser == 'firefox':
-        driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+        options = webdriver.FirefoxOptions()
+        if headless:
+            options.add_argument('--headless')
+        driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
     elif browser == "edge":
-        driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+        options = webdriver.EdgeOptions()
+        if headless:
+            options.add_argument('--headless')
+        driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()), options=options)
 
-    driver.maximize_window()
+    if not headless:
+        driver.maximize_window()
     driver.get(get_url)
     request.cls.driver = driver
 
@@ -39,8 +50,7 @@ def setup(request, browser, get_url):
 def pytest_addoption(parser):
     parser.addoption('--browser')
     parser.addoption('--url')
-    parser.addoption('--headless')
-
+    parser.addoption('--headless', action='store_true', default=False)
 
 @pytest.fixture(scope="session",autouse=True)
 def browser(request):
