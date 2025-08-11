@@ -19,15 +19,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser chromium-chromedriver
-
-      - name: Get trigger info
-        run: |
-          echo "Source repo: ${{ github.event.client_payload.source_repo }}"
-          echo "Environment: ${{ github.event.client_payload.environment }}"
-          echo "Test suite: ${{ github.event.client_payload.test_suite }}"
-
+          
       - name: Run tests
         run: |
-          pytest --browser chrome --url https://nimble-wisp-5a5d19.netlify.app/ --headless
+          pytest --browser chrome --headless--url https://nimble-wisp-5a5d19.netlify.app/
