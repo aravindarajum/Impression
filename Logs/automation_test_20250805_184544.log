@@ -1,0 +1,296 @@
+2025-08-05 18:45:45,637 - Utils.logger - INFO - Element Found ('id', 'nav-volunteer')
+2025-08-05 18:45:45,804 - Utils.logger - INFO - Clicked on ('id', 'nav-volunteer')
+2025-08-05 18:45:45,857 - Utils.logger - INFO - Element Found ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:46,177 - Utils.logger - INFO - Clicked on ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:46,192 - Utils.logger - INFO - Element Found ('id', 'volunteer-submit')
+2025-08-05 18:45:46,277 - Utils.logger - INFO - Clicked on ('id', 'volunteer-submit')
+2025-08-05 18:45:46,308 - Utils.logger - INFO - Is Name field Empty True
+2025-08-05 18:45:46,346 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Name is required')]")
+2025-08-05 18:45:46,346 - Utils.logger - INFO - Is Name error Message Dispalyed True
+2025-08-05 18:45:46,408 - Utils.logger - INFO - Is Phone Number field Empty True
+2025-08-05 18:45:46,415 - Utils.logger - INFO - Element Found ('id', 'volunteer-mobile')
+2025-08-05 18:45:46,415 - Utils.logger - INFO - Is Mobile Number error Message Dispalyed True
+2025-08-05 18:45:46,488 - Utils.logger - INFO - Is Email field Empty True
+2025-08-05 18:45:46,507 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Email is required')]")
+2025-08-05 18:45:46,507 - Utils.logger - INFO - Is Email error Message Dispalyed True
+2025-08-05 18:45:46,551 - Utils.logger - INFO - Is Date of Birth field Empty True
+2025-08-05 18:45:46,569 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Date of birth is required')]")
+2025-08-05 18:45:46,569 - Utils.logger - INFO - Is Date of Birth error Message Dispalyed True
+2025-08-05 18:45:46,615 - Utils.logger - INFO - Is Address field Empty True
+2025-08-05 18:45:46,631 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Address is required')]")
+2025-08-05 18:45:46,631 - Utils.logger - INFO - Is Address error Message Dispalyed True
+2025-08-05 18:45:46,678 - Utils.logger - INFO - Is City field Empty True
+2025-08-05 18:45:46,693 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'City is required')]")
+2025-08-05 18:45:46,693 - Utils.logger - INFO - Is City error Message Dispalyed True
+2025-08-05 18:45:46,731 - Utils.logger - INFO - Is State field Empty True
+2025-08-05 18:45:46,747 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'State is required')]")
+2025-08-05 18:45:46,747 - Utils.logger - INFO - Is State error Message Dispalyed True
+2025-08-05 18:45:46,816 - Utils.logger - INFO - Is Gender NOT empty True
+2025-08-05 18:45:46,862 - Utils.logger - INFO - Are Areas of Interested fields NOT selected True
+2025-08-05 18:45:47,025 - Utils.logger - INFO - Element Found ('id', 'nav-volunteer')
+2025-08-05 18:45:47,094 - Utils.logger - INFO - Clicked on ('id', 'nav-volunteer')
+2025-08-05 18:45:47,112 - Utils.logger - INFO - Element Found ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:47,181 - Utils.logger - INFO - Clicked on ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:47,197 - Utils.logger - INFO - Element Found ('id', 'volunteer-name')
+2025-08-05 18:45:47,389 - Utils.logger - INFO - Input successful to ('id', 'volunteer-name')
+2025-08-05 18:45:47,397 - Utils.logger - INFO - Element Found ('id', 'volunteer-submit')
+2025-08-05 18:45:47,448 - Utils.logger - INFO - Clicked on ('id', 'volunteer-submit')
+2025-08-05 18:45:47,470 - Utils.logger - INFO - Is Name field Empty False
+2025-08-05 18:45:47,483 - Utils.logger - INFO - Is Phone Number field Empty True
+2025-08-05 18:45:47,497 - Utils.logger - INFO - Element Found ('id', 'volunteer-mobile')
+2025-08-05 18:45:47,497 - Utils.logger - INFO - Is Mobile Number error Message Dispalyed True
+2025-08-05 18:45:47,534 - Utils.logger - INFO - Is Email field Empty True
+2025-08-05 18:45:47,549 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Email is required')]")
+2025-08-05 18:45:47,549 - Utils.logger - INFO - Is Email error Message Dispalyed True
+2025-08-05 18:45:47,580 - Utils.logger - INFO - Is Date of Birth field Empty True
+2025-08-05 18:45:47,596 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Date of birth is required')]")
+2025-08-05 18:45:47,596 - Utils.logger - INFO - Is Date of Birth error Message Dispalyed True
+2025-08-05 18:45:47,664 - Utils.logger - INFO - Is Address field Empty True
+2025-08-05 18:45:47,683 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Address is required')]")
+2025-08-05 18:45:47,683 - Utils.logger - INFO - Is Address error Message Dispalyed True
+2025-08-05 18:45:47,786 - Utils.logger - INFO - Is City field Empty True
+2025-08-05 18:45:47,812 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'City is required')]")
+2025-08-05 18:45:47,812 - Utils.logger - INFO - Is City error Message Dispalyed True
+2025-08-05 18:45:47,881 - Utils.logger - INFO - Is State field Empty True
+2025-08-05 18:45:47,912 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'State is required')]")
+2025-08-05 18:45:47,912 - Utils.logger - INFO - Is State error Message Dispalyed True
+2025-08-05 18:45:47,997 - Utils.logger - INFO - Is Gender NOT empty True
+2025-08-05 18:45:48,066 - Utils.logger - INFO - Are Areas of Interested fields NOT selected True
+2025-08-05 18:45:48,263 - Utils.logger - INFO - Element Found ('id', 'nav-volunteer')
+2025-08-05 18:45:48,427 - Utils.logger - INFO - Clicked on ('id', 'nav-volunteer')
+2025-08-05 18:45:48,453 - Utils.logger - INFO - Element Found ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:48,596 - Utils.logger - INFO - Clicked on ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:48,618 - Utils.logger - INFO - Element Found ('id', 'volunteer-mobile')
+2025-08-05 18:45:48,799 - Utils.logger - INFO - Input successful to ('id', 'volunteer-mobile')
+2025-08-05 18:45:48,822 - Utils.logger - INFO - Element Found ('id', 'volunteer-submit')
+2025-08-05 18:45:49,005 - Utils.logger - INFO - Clicked on ('id', 'volunteer-submit')
+2025-08-05 18:45:49,044 - Utils.logger - INFO - Is Name field Empty True
+2025-08-05 18:45:49,106 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Name is required')]")
+2025-08-05 18:45:49,107 - Utils.logger - INFO - Is Name error Message Dispalyed True
+2025-08-05 18:45:49,206 - Utils.logger - INFO - Is Phone Number field Empty False
+2025-08-05 18:45:49,238 - Utils.logger - INFO - Is Email field Empty True
+2025-08-05 18:45:49,269 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Email is required')]")
+2025-08-05 18:45:49,269 - Utils.logger - INFO - Is Email error Message Dispalyed True
+2025-08-05 18:45:49,354 - Utils.logger - INFO - Is Date of Birth field Empty True
+2025-08-05 18:45:49,385 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Date of birth is required')]")
+2025-08-05 18:45:49,385 - Utils.logger - INFO - Is Date of Birth error Message Dispalyed True
+2025-08-05 18:45:49,470 - Utils.logger - INFO - Is Address field Empty True
+2025-08-05 18:45:49,501 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Address is required')]")
+2025-08-05 18:45:49,501 - Utils.logger - INFO - Is Address error Message Dispalyed True
+2025-08-05 18:45:49,586 - Utils.logger - INFO - Is City field Empty True
+2025-08-05 18:45:49,624 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'City is required')]")
+2025-08-05 18:45:49,624 - Utils.logger - INFO - Is City error Message Dispalyed True
+2025-08-05 18:45:49,739 - Utils.logger - INFO - Is State field Empty True
+2025-08-05 18:45:49,755 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'State is required')]")
+2025-08-05 18:45:49,755 - Utils.logger - INFO - Is State error Message Dispalyed True
+2025-08-05 18:45:49,855 - Utils.logger - INFO - Is Gender NOT empty True
+2025-08-05 18:45:49,924 - Utils.logger - INFO - Are Areas of Interested fields NOT selected True
+2025-08-05 18:45:50,152 - Utils.logger - INFO - Element Found ('id', 'nav-volunteer')
+2025-08-05 18:45:50,289 - Utils.logger - INFO - Clicked on ('id', 'nav-volunteer')
+2025-08-05 18:45:50,313 - Utils.logger - INFO - Element Found ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:50,450 - Utils.logger - INFO - Clicked on ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:50,469 - Utils.logger - INFO - Element Found ('id', 'volunteer-email')
+2025-08-05 18:45:50,635 - Utils.logger - INFO - Input successful to ('id', 'volunteer-email')
+2025-08-05 18:45:50,653 - Utils.logger - INFO - Element Found ('id', 'volunteer-submit')
+2025-08-05 18:45:50,767 - Utils.logger - INFO - Clicked on ('id', 'volunteer-submit')
+2025-08-05 18:45:50,795 - Utils.logger - INFO - Is Name field Empty True
+2025-08-05 18:45:50,811 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Name is required')]")
+2025-08-05 18:45:50,811 - Utils.logger - INFO - Is Name error Message Dispalyed True
+2025-08-05 18:45:50,903 - Utils.logger - INFO - Is Phone Number field Empty True
+2025-08-05 18:45:50,925 - Utils.logger - INFO - Element Found ('id', 'volunteer-mobile')
+2025-08-05 18:45:50,925 - Utils.logger - INFO - Is Mobile Number error Message Dispalyed True
+2025-08-05 18:45:51,019 - Utils.logger - INFO - Is Email field Empty False
+2025-08-05 18:45:51,041 - Utils.logger - INFO - Is Date of Birth field Empty True
+2025-08-05 18:45:51,057 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Date of birth is required')]")
+2025-08-05 18:45:51,057 - Utils.logger - INFO - Is Date of Birth error Message Dispalyed True
+2025-08-05 18:45:51,157 - Utils.logger - INFO - Is Address field Empty True
+2025-08-05 18:45:51,188 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Address is required')]")
+2025-08-05 18:45:51,188 - Utils.logger - INFO - Is Address error Message Dispalyed True
+2025-08-05 18:45:51,289 - Utils.logger - INFO - Is City field Empty True
+2025-08-05 18:45:51,326 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'City is required')]")
+2025-08-05 18:45:51,326 - Utils.logger - INFO - Is City error Message Dispalyed True
+2025-08-05 18:45:51,405 - Utils.logger - INFO - Is State field Empty True
+2025-08-05 18:45:51,442 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'State is required')]")
+2025-08-05 18:45:51,442 - Utils.logger - INFO - Is State error Message Dispalyed True
+2025-08-05 18:45:51,543 - Utils.logger - INFO - Is Gender NOT empty True
+2025-08-05 18:45:51,605 - Utils.logger - INFO - Are Areas of Interested fields NOT selected True
+2025-08-05 18:45:51,821 - Utils.logger - INFO - Element Found ('id', 'nav-volunteer')
+2025-08-05 18:45:52,049 - Utils.logger - INFO - Clicked on ('id', 'nav-volunteer')
+2025-08-05 18:45:52,070 - Utils.logger - INFO - Element Found ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:52,243 - Utils.logger - INFO - Clicked on ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:52,266 - Utils.logger - INFO - Element Found ('id', 'volunteer-date-of-birth')
+2025-08-05 18:45:52,446 - Utils.logger - INFO - Input successful to ('id', 'volunteer-date-of-birth')
+2025-08-05 18:45:52,463 - Utils.logger - INFO - Element Found ('id', 'volunteer-submit')
+2025-08-05 18:45:52,557 - Utils.logger - INFO - Clicked on ('id', 'volunteer-submit')
+2025-08-05 18:45:52,580 - Utils.logger - INFO - Is Name field Empty True
+2025-08-05 18:45:52,608 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Name is required')]")
+2025-08-05 18:45:52,608 - Utils.logger - INFO - Is Name error Message Dispalyed True
+2025-08-05 18:45:52,693 - Utils.logger - INFO - Is Phone Number field Empty True
+2025-08-05 18:45:52,708 - Utils.logger - INFO - Element Found ('id', 'volunteer-mobile')
+2025-08-05 18:45:52,708 - Utils.logger - INFO - Is Mobile Number error Message Dispalyed True
+2025-08-05 18:45:52,793 - Utils.logger - INFO - Is Email field Empty True
+2025-08-05 18:45:52,831 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Email is required')]")
+2025-08-05 18:45:52,831 - Utils.logger - INFO - Is Email error Message Dispalyed True
+2025-08-05 18:45:52,909 - Utils.logger - INFO - Is Date of Birth field Empty False
+2025-08-05 18:45:52,931 - Utils.logger - INFO - Is Address field Empty True
+2025-08-05 18:45:52,962 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Address is required')]")
+2025-08-05 18:45:52,962 - Utils.logger - INFO - Is Address error Message Dispalyed True
+2025-08-05 18:45:53,078 - Utils.logger - INFO - Is City field Empty True
+2025-08-05 18:45:53,094 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'City is required')]")
+2025-08-05 18:45:53,094 - Utils.logger - INFO - Is City error Message Dispalyed True
+2025-08-05 18:45:53,194 - Utils.logger - INFO - Is State field Empty True
+2025-08-05 18:45:53,225 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'State is required')]")
+2025-08-05 18:45:53,225 - Utils.logger - INFO - Is State error Message Dispalyed True
+2025-08-05 18:45:53,325 - Utils.logger - INFO - Is Gender NOT empty True
+2025-08-05 18:45:53,394 - Utils.logger - INFO - Are Areas of Interested fields NOT selected True
+2025-08-05 18:45:53,571 - Utils.logger - INFO - Element Found ('id', 'nav-volunteer')
+2025-08-05 18:45:53,687 - Utils.logger - INFO - Clicked on ('id', 'nav-volunteer')
+2025-08-05 18:45:53,708 - Utils.logger - INFO - Element Found ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:53,833 - Utils.logger - INFO - Clicked on ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:53,851 - Utils.logger - INFO - Element Found ('id', 'volunteer-address')
+2025-08-05 18:45:54,005 - Utils.logger - INFO - Input successful to ('id', 'volunteer-address')
+2025-08-05 18:45:54,014 - Utils.logger - INFO - Element Found ('id', 'volunteer-submit')
+2025-08-05 18:45:54,115 - Utils.logger - INFO - Clicked on ('id', 'volunteer-submit')
+2025-08-05 18:45:54,145 - Utils.logger - INFO - Is Name field Empty True
+2025-08-05 18:45:54,171 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Name is required')]")
+2025-08-05 18:45:54,171 - Utils.logger - INFO - Is Name error Message Dispalyed True
+2025-08-05 18:45:54,266 - Utils.logger - INFO - Is Phone Number field Empty True
+2025-08-05 18:45:54,297 - Utils.logger - INFO - Element Found ('id', 'volunteer-mobile')
+2025-08-05 18:45:54,297 - Utils.logger - INFO - Is Mobile Number error Message Dispalyed True
+2025-08-05 18:45:54,382 - Utils.logger - INFO - Is Email field Empty True
+2025-08-05 18:45:54,413 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Email is required')]")
+2025-08-05 18:45:54,413 - Utils.logger - INFO - Is Email error Message Dispalyed True
+2025-08-05 18:45:54,482 - Utils.logger - INFO - Is Date of Birth field Empty True
+2025-08-05 18:45:54,514 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Date of birth is required')]")
+2025-08-05 18:45:54,514 - Utils.logger - INFO - Is Date of Birth error Message Dispalyed True
+2025-08-05 18:45:54,598 - Utils.logger - INFO - Is Address field Empty False
+2025-08-05 18:45:54,629 - Utils.logger - INFO - Is City field Empty True
+2025-08-05 18:45:54,652 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'City is required')]")
+2025-08-05 18:45:54,652 - Utils.logger - INFO - Is City error Message Dispalyed True
+2025-08-05 18:45:54,736 - Utils.logger - INFO - Is State field Empty True
+2025-08-05 18:45:54,767 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'State is required')]")
+2025-08-05 18:45:54,767 - Utils.logger - INFO - Is State error Message Dispalyed True
+2025-08-05 18:45:54,852 - Utils.logger - INFO - Is Gender NOT empty True
+2025-08-05 18:45:54,915 - Utils.logger - INFO - Are Areas of Interested fields NOT selected True
+2025-08-05 18:45:55,107 - Utils.logger - INFO - Element Found ('id', 'nav-volunteer')
+2025-08-05 18:45:55,235 - Utils.logger - INFO - Clicked on ('id', 'nav-volunteer')
+2025-08-05 18:45:55,259 - Utils.logger - INFO - Element Found ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:55,385 - Utils.logger - INFO - Clicked on ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:55,408 - Utils.logger - INFO - Element Found ('id', 'volunteer-city')
+2025-08-05 18:45:55,601 - Utils.logger - INFO - Selected Bangalore from drop_down
+2025-08-05 18:45:55,617 - Utils.logger - INFO - Element Found ('id', 'volunteer-submit')
+2025-08-05 18:45:55,722 - Utils.logger - INFO - Clicked on ('id', 'volunteer-submit')
+2025-08-05 18:45:55,748 - Utils.logger - INFO - Is Name field Empty True
+2025-08-05 18:45:55,771 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Name is required')]")
+2025-08-05 18:45:55,771 - Utils.logger - INFO - Is Name error Message Dispalyed True
+2025-08-05 18:45:55,854 - Utils.logger - INFO - Is Phone Number field Empty True
+2025-08-05 18:45:55,869 - Utils.logger - INFO - Element Found ('id', 'volunteer-mobile')
+2025-08-05 18:45:55,869 - Utils.logger - INFO - Is Mobile Number error Message Dispalyed True
+2025-08-05 18:45:55,954 - Utils.logger - INFO - Is Email field Empty True
+2025-08-05 18:45:55,985 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Email is required')]")
+2025-08-05 18:45:55,985 - Utils.logger - INFO - Is Email error Message Dispalyed True
+2025-08-05 18:45:56,070 - Utils.logger - INFO - Is Date of Birth field Empty True
+2025-08-05 18:45:56,101 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Date of birth is required')]")
+2025-08-05 18:45:56,101 - Utils.logger - INFO - Is Date of Birth error Message Dispalyed True
+2025-08-05 18:45:56,201 - Utils.logger - INFO - Is Address field Empty True
+2025-08-05 18:45:56,217 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Address is required')]")
+2025-08-05 18:45:56,217 - Utils.logger - INFO - Is Address error Message Dispalyed True
+2025-08-05 18:45:56,302 - Utils.logger - INFO - Is City field Empty False
+2025-08-05 18:45:56,333 - Utils.logger - INFO - Is State field Empty True
+2025-08-05 18:45:56,355 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'State is required')]")
+2025-08-05 18:45:56,355 - Utils.logger - INFO - Is State error Message Dispalyed True
+2025-08-05 18:45:56,455 - Utils.logger - INFO - Is Gender NOT empty True
+2025-08-05 18:45:56,533 - Utils.logger - INFO - Are Areas of Interested fields NOT selected True
+2025-08-05 18:45:56,733 - Utils.logger - INFO - Element Found ('id', 'nav-volunteer')
+2025-08-05 18:45:56,889 - Utils.logger - INFO - Clicked on ('id', 'nav-volunteer')
+2025-08-05 18:45:56,910 - Utils.logger - INFO - Element Found ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:57,060 - Utils.logger - INFO - Clicked on ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:57,081 - Utils.logger - INFO - Element Found ('id', 'volunteer-state')
+2025-08-05 18:45:57,252 - Utils.logger - INFO - Selected Karnataka from drop_down
+2025-08-05 18:45:57,267 - Utils.logger - INFO - Element Found ('id', 'volunteer-submit')
+2025-08-05 18:45:57,372 - Utils.logger - INFO - Clicked on ('id', 'volunteer-submit')
+2025-08-05 18:45:57,399 - Utils.logger - INFO - Is Name field Empty True
+2025-08-05 18:45:57,419 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Name is required')]")
+2025-08-05 18:45:57,419 - Utils.logger - INFO - Is Name error Message Dispalyed True
+2025-08-05 18:45:57,505 - Utils.logger - INFO - Is Phone Number field Empty True
+2025-08-05 18:45:57,542 - Utils.logger - INFO - Element Found ('id', 'volunteer-mobile')
+2025-08-05 18:45:57,542 - Utils.logger - INFO - Is Mobile Number error Message Dispalyed True
+2025-08-05 18:45:57,643 - Utils.logger - INFO - Is Email field Empty True
+2025-08-05 18:45:57,658 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Email is required')]")
+2025-08-05 18:45:57,658 - Utils.logger - INFO - Is Email error Message Dispalyed True
+2025-08-05 18:45:57,759 - Utils.logger - INFO - Is Date of Birth field Empty True
+2025-08-05 18:45:57,790 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Date of birth is required')]")
+2025-08-05 18:45:57,790 - Utils.logger - INFO - Is Date of Birth error Message Dispalyed True
+2025-08-05 18:45:57,890 - Utils.logger - INFO - Is Address field Empty True
+2025-08-05 18:45:57,921 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Address is required')]")
+2025-08-05 18:45:57,921 - Utils.logger - INFO - Is Address error Message Dispalyed True
+2025-08-05 18:45:58,022 - Utils.logger - INFO - Is City field Empty True
+2025-08-05 18:45:58,059 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'City is required')]")
+2025-08-05 18:45:58,059 - Utils.logger - INFO - Is City error Message Dispalyed True
+2025-08-05 18:45:58,160 - Utils.logger - INFO - Is State field Empty False
+2025-08-05 18:45:58,191 - Utils.logger - INFO - Is Gender NOT empty True
+2025-08-05 18:45:58,260 - Utils.logger - INFO - Are Areas of Interested fields NOT selected True
+2025-08-05 18:45:58,454 - Utils.logger - INFO - Element Found ('id', 'nav-volunteer')
+2025-08-05 18:45:58,577 - Utils.logger - INFO - Clicked on ('id', 'nav-volunteer')
+2025-08-05 18:45:58,597 - Utils.logger - INFO - Element Found ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:58,765 - Utils.logger - INFO - Clicked on ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:45:58,794 - Utils.logger - INFO - Element Found ('xpath', "//input[@name='gender' and @value='Male']")
+2025-08-05 18:45:58,931 - Utils.logger - INFO - Clicked on ('xpath', "//input[@name='gender' and @value='Male']")
+2025-08-05 18:45:58,950 - Utils.logger - INFO - Element Found ('id', 'volunteer-submit')
+2025-08-05 18:45:59,056 - Utils.logger - INFO - Clicked on ('id', 'volunteer-submit')
+2025-08-05 18:45:59,086 - Utils.logger - INFO - Is Name field Empty True
+2025-08-05 18:45:59,117 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Name is required')]")
+2025-08-05 18:45:59,117 - Utils.logger - INFO - Is Name error Message Dispalyed True
+2025-08-05 18:45:59,193 - Utils.logger - INFO - Is Phone Number field Empty True
+2025-08-05 18:45:59,224 - Utils.logger - INFO - Element Found ('id', 'volunteer-mobile')
+2025-08-05 18:45:59,224 - Utils.logger - INFO - Is Mobile Number error Message Dispalyed True
+2025-08-05 18:45:59,309 - Utils.logger - INFO - Is Email field Empty True
+2025-08-05 18:45:59,347 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Email is required')]")
+2025-08-05 18:45:59,347 - Utils.logger - INFO - Is Email error Message Dispalyed True
+2025-08-05 18:45:59,440 - Utils.logger - INFO - Is Date of Birth field Empty True
+2025-08-05 18:45:59,463 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Date of birth is required')]")
+2025-08-05 18:45:59,463 - Utils.logger - INFO - Is Date of Birth error Message Dispalyed True
+2025-08-05 18:45:59,541 - Utils.logger - INFO - Is Address field Empty True
+2025-08-05 18:45:59,563 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Address is required')]")
+2025-08-05 18:45:59,563 - Utils.logger - INFO - Is Address error Message Dispalyed True
+2025-08-05 18:45:59,641 - Utils.logger - INFO - Is City field Empty True
+2025-08-05 18:45:59,663 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'City is required')]")
+2025-08-05 18:45:59,663 - Utils.logger - INFO - Is City error Message Dispalyed True
+2025-08-05 18:45:59,748 - Utils.logger - INFO - Is State field Empty True
+2025-08-05 18:45:59,779 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'State is required')]")
+2025-08-05 18:45:59,779 - Utils.logger - INFO - Is State error Message Dispalyed True
+2025-08-05 18:45:59,910 - Utils.logger - INFO - Is Gender NOT empty True
+2025-08-05 18:45:59,979 - Utils.logger - INFO - Are Areas of Interested fields NOT selected True
+2025-08-05 18:46:00,196 - Utils.logger - INFO - Element Found ('id', 'nav-volunteer')
+2025-08-05 18:46:00,315 - Utils.logger - INFO - Clicked on ('id', 'nav-volunteer')
+2025-08-05 18:46:00,343 - Utils.logger - INFO - Element Found ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:46:00,472 - Utils.logger - INFO - Clicked on ('id', 'volunteer-register-community-outreach')
+2025-08-05 18:46:00,473 - Utils.logger - INFO - ['Health']
+2025-08-05 18:46:00,474 - Utils.logger - INFO - Health
+2025-08-05 18:46:00,492 - Utils.logger - INFO - Element Found ('id', 'volunteer-interest-health')
+2025-08-05 18:46:00,608 - Utils.logger - INFO - Clicked on ('id', 'volunteer-interest-health')
+2025-08-05 18:46:00,625 - Utils.logger - INFO - Element Found ('id', 'volunteer-submit')
+2025-08-05 18:46:00,720 - Utils.logger - INFO - Clicked on ('id', 'volunteer-submit')
+2025-08-05 18:46:00,745 - Utils.logger - INFO - Is Name field Empty True
+2025-08-05 18:46:00,764 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Name is required')]")
+2025-08-05 18:46:00,764 - Utils.logger - INFO - Is Name error Message Dispalyed True
+2025-08-05 18:46:00,889 - Utils.logger - INFO - Is Phone Number field Empty True
+2025-08-05 18:46:00,916 - Utils.logger - INFO - Element Found ('id', 'volunteer-mobile')
+2025-08-05 18:46:00,916 - Utils.logger - INFO - Is Mobile Number error Message Dispalyed True
+2025-08-05 18:46:01,051 - Utils.logger - INFO - Is Email field Empty True
+2025-08-05 18:46:01,085 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Email is required')]")
+2025-08-05 18:46:01,085 - Utils.logger - INFO - Is Email error Message Dispalyed True
+2025-08-05 18:46:01,182 - Utils.logger - INFO - Is Date of Birth field Empty True
+2025-08-05 18:46:01,213 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Date of birth is required')]")
+2025-08-05 18:46:01,213 - Utils.logger - INFO - Is Date of Birth error Message Dispalyed True
+2025-08-05 18:46:01,298 - Utils.logger - INFO - Is Address field Empty True
+2025-08-05 18:46:01,351 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'Address is required')]")
+2025-08-05 18:46:01,351 - Utils.logger - INFO - Is Address error Message Dispalyed True
+2025-08-05 18:46:01,452 - Utils.logger - INFO - Is City field Empty True
+2025-08-05 18:46:01,467 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'City is required')]")
+2025-08-05 18:46:01,467 - Utils.logger - INFO - Is City error Message Dispalyed True
+2025-08-05 18:46:01,552 - Utils.logger - INFO - Is State field Empty True
+2025-08-05 18:46:01,583 - Utils.logger - INFO - Element Found ('xpath', "//p[contains(text(),'State is required')]")
+2025-08-05 18:46:01,583 - Utils.logger - INFO - Is State error Message Dispalyed True
+2025-08-05 18:46:01,668 - Utils.logger - INFO - Is Gender NOT empty True
+2025-08-05 18:46:01,753 - Utils.logger - INFO - Are Areas of Interested fields NOT selected True
