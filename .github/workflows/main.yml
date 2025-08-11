@@ -1,8 +1,7 @@
 name: Run Automation Tests
 
-on:
-  repository_dispatch:
-    types: [run-automation-tests, manual-test-trigger]
+on: [push, pull_request]
+
 
 jobs:
   run-tests:
