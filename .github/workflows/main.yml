@@ -22,4 +22,4 @@ jobs:
           
       - name: Run tests
         run: |
-          pytest --browser chrome --headless --url https://nimble-wisp-5a5d19.netlify.app/
+          pytest --browser chrome --headless=true --url https://nimble-wisp-5a5d19.netlify.app/
